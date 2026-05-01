@@ -13,7 +13,7 @@ MAGIC_HEADERS = {
 
 @app.route("/")
 def home():
-    return jsonify({"message": "Use /generate?prompt=abbas+name+heart"})
+    return jsonify({"message": "Use /generate?prompt=sakib+name+heart"})
 
 @app.route("/generate")
 def generate():
